@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Cyber Threat Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center p-4">
+
+    <div class="bg-gray-800 rounded-2xl shadow-lg w-full px-6 py-6 flex flex-col items-center space-y-4 max-w-screen-xl">
+        <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white mb-0 text-center">
+            Real-time Cyberattack Trends
+        </h1>
+        <img 
+            src="attack_trends.png"
+            alt="Graph showing real-time cyberattack trends with rolling average"
+            class="rounded-xl border-2 border-gray-700 shadow-lg w-full"
+            style="background:white;"
+        />
+        <p class="text-sm md:text-base text-blue-200 text-center max-w-xl">
+            This graph visualizes the number of cyberattacks over the last 12 hours, including a 1-hour rolling average.
+        </p>
+    </div>
+
+</body>
+</html>

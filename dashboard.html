@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto-Switch Dashboard</title>
+    <style>
+        body, html { margin: 0; padding: 0; height: 100%; }
+        iframe { width: 100%; height: 100%; border: none; }
+    </style>
+</head>
+<body>
+    <iframe id="frame"></iframe>
+
+    <script>
+        const sites = [
+            "DownDetector/Down_Detector_Test.html",
+            "FortinetScraper/Attempt3/Scraper.html",
+            "History/History.html",
+            "News/bbc_news_feed.html",
+            "News/wired_news_feed.html",            
+            "News/bleeping_computer.html",
+            "https://fortiguard.fortinet.com/threat-map"
+        ];
+
+        let index = 0;
+        const iframe = document.getElementById("frame");
+
+function switchSite() {
+    const currentSite = sites[index];
+    // Add cache-busting query param for local files (or any site you want)
+    if (!currentSite.startsWith("http")) {
+        iframe.src = currentSite + "?" + new Date().getTime();
+    } else {
+        // For external sites (e.g. https://fortiguard...), you can also add cache-busting if needed:
+        // iframe.src = currentSite + "?" + new Date().getTime();
+        iframe.src = currentSite;
+    }
+    index = (index + 1) % sites.length;
+}
+
+
+        switchSite(); // Initial load
+        setInterval(switchSite, 20000); // Rotate every 20 seconds
+    </script>
+</body>
+</html>
