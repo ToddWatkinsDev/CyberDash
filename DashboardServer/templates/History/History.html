@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Cyber Threat Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?version=3.4.3"></script>
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -19,7 +19,7 @@
             Real-time Cyberattack Trends
         </h1>
         <img 
-            src="attack_trends.png"
+            src="{{ url_for('static', filename='Images/attack_trends.png') }}"
             alt="Graph showing real-time cyberattack trends with rolling average"
             class="rounded-xl border-2 border-gray-700 shadow-lg w-full"
             style="background:white;"

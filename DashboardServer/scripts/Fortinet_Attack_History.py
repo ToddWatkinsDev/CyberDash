@@ -13,28 +13,29 @@ import threading
 import keyboard  # pip install keyboard
 import pytz  # pip install pytz
 
-output_dir = "History/"
+output_dir = "DashboardServer/static/Images"
 run_job_now = False  # Flag for immediate job trigger
 
 def manage_data():
     data_file_path = os.path.join(output_dir, 'cyberattack_data.csv')
 
-    # Ensure CSV exists with header
     if os.path.exists(data_file_path) and os.path.getsize(data_file_path) == 0:
         pd.DataFrame(columns=['timestamp', 'attacks']).to_csv(data_file_path, index=False)
 
     existing_df = pd.DataFrame(columns=['timestamp', 'attacks'])
     if os.path.exists(data_file_path):
         try:
-            existing_df = pd.read_csv(data_file_path, parse_dates=['timestamp'])
+            existing_df = pd.read_csv(data_file_path)
+            existing_df['timestamp'] = pd.to_datetime(existing_df['timestamp'], errors='coerce')
+            existing_df = existing_df.dropna(subset=['timestamp'])
             if existing_df['timestamp'].dt.tz is None:
                 existing_df['timestamp'] = existing_df['timestamp'].dt.tz_localize('Europe/Jersey')
             else:
                 existing_df['timestamp'] = existing_df['timestamp'].dt.tz_convert('Europe/Jersey')
         except pd.errors.EmptyDataError:
             pass
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"[ERROR] Exception reading CSV: {e}")
 
     url = "https://fortiguard.fortinet.com/api/threatmap/live/outbreak?outbreak_id=0&segment_sec=300&last_sec=3600&replay=true&limit=500"
     if not os.path.exists(output_dir):
@@ -58,17 +59,28 @@ def manage_data():
                 new_data.append({'timestamp': jersey_time, 'attacks': count})
 
         new_df = pd.DataFrame(new_data)
+
         if not new_df.empty:
             new_df['timestamp'] = pd.to_datetime(new_df['timestamp']).dt.tz_convert('Europe/Jersey')
 
-        if not existing_df.empty and not new_df.empty:
-            combined_df = pd.concat([existing_df, new_df]).drop_duplicates(subset=['timestamp']).sort_values(by='timestamp')
-        elif not existing_df.empty:
-            combined_df = existing_df.copy()
-        elif not new_df.empty:
-            combined_df = new_df.copy()
+        existing_df_clean = existing_df.dropna(axis=1, how='all') if not existing_df.empty else existing_df
+        new_df_clean = new_df.dropna(axis=1, how='all') if not new_df.empty else new_df
+
+        if not existing_df_clean.empty and not new_df_clean.empty:
+            combined_df = pd.concat([existing_df_clean, new_df_clean]).drop_duplicates(subset=['timestamp']).sort_values(by='timestamp')
+        elif not existing_df_clean.empty:
+            combined_df = existing_df_clean.copy()
+        elif not new_df_clean.empty:
+            combined_df = new_df_clean.copy()
         else:
             combined_df = pd.DataFrame(columns=['timestamp', 'attacks'])
+
+        combined_df['timestamp'] = pd.to_datetime(combined_df['timestamp'], errors='coerce')
+        combined_df = combined_df.dropna(subset=['timestamp'])
+        if combined_df['timestamp'].dt.tz is None:
+            combined_df['timestamp'] = combined_df['timestamp'].dt.tz_localize('Europe/Jersey')
+        else:
+            combined_df['timestamp'] = combined_df['timestamp'].dt.tz_convert('Europe/Jersey')
 
         twelve_hours_ago = datetime.now(jersey_tz) - timedelta(hours=12)
         filtered_df = combined_df[combined_df['timestamp'] > twelve_hours_ago]
@@ -76,12 +88,12 @@ def manage_data():
         if not filtered_df.empty:
             filtered_df.to_csv(data_file_path, index=False)
 
-    except requests.exceptions.RequestException:
-        pass
-    except (KeyError, ValueError):
-        pass
-    except Exception:
-        pass
+    except requests.exceptions.RequestException as e:
+        print(f"[ERROR] Request error: {e}")
+    except (KeyError, ValueError) as e:
+        print(f"[ERROR] Data format issue: {e}")
+    except Exception as e:
+        print(f"[ERROR] Unexpected error: {e}")
 
 def create_and_save_plot():
     data_file_path = os.path.join(output_dir, 'cyberattack_data.csv')
@@ -93,6 +105,9 @@ def create_and_save_plot():
     jersey_tz = pytz.timezone('Europe/Jersey')
     if df.empty:
         return
+
+    df['timestamp'] = pd.to_datetime(df['timestamp'], errors='coerce')
+    df = df.dropna(subset=['timestamp'])
 
     if df['timestamp'].dt.tz is None:
         df['timestamp'] = df['timestamp'].dt.tz_localize('Europe/Jersey')
@@ -149,6 +164,7 @@ def trigger_job():
 if __name__ == "__main__":
     schedule.every(30).minutes.do(job)
     job()
+    print("History next 30 Mins")
 
     listener_thread = threading.Thread(target=hotkey_listener, daemon=True)
     listener_thread.start()
@@ -159,3 +175,4 @@ if __name__ == "__main__":
             job()
             run_job_now = False
         time.sleep(1)
+

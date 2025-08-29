@@ -7,7 +7,7 @@ import os
 import time
 
 
-output_dir = "FortinetScraper/Attempt3/Images/"
+output_dir = "DashboardServer\static\Images"
 chart_files = [
     'Attack_Severity.png',
     'Attack_Types.png',

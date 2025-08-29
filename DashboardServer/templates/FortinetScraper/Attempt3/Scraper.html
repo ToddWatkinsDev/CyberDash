@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Threat Dashboard</title>
-    <!-- Use the Inter font from Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Load Tailwind CSS from CDN for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -54,9 +52,7 @@
 </head>
 <body class="bg-gray-900 text-gray-100 flex flex-col items-center justify-center min-h-screen p-1 md:p-2">
 
-    <!-- Main content container with a maximum width -->
     <div class="w-full max-w-4xl mx-auto flex-1 flex flex-col">
-        <!-- Dashboard Header -->
         <div class="header text-center space-y-0.5 mb-1">
             <h1 class="text-xl md:text-2xl font-extrabold tracking-tight text-white">
                 FortiGuard Cyber Threat Dashboard
@@ -66,14 +62,12 @@
             </p>
         </div>
 
-        <!-- Grid to hold all the image cards -->
         <div class="grid-container flex-1">
 
-            <!-- Card 1: Most Attacks Incoming -->
             <div class="card">
                 <h2 class="text-sm md:text-base font-bold mb-0.5 text-white">Most Attacks Incoming Country</h2>
                 <img 
-                    src="Images/Most_Attacks_Incoming.png" 
+                    src="{{ url_for('static', filename='Images/Most_Attacks_Incoming.png') }}" 
                     alt="Bar chart showing the top countries receiving cyberattacks" 
                     class="w-full h-auto rounded-xl shadow-lg border-2 border-gray-700"
                     onerror="this.onerror=null; this.src='https://placehold.co/450x338/2d3748/cbd5e0?text=Image+Not+Found'"
@@ -83,11 +77,10 @@
                 </p>
             </div>
 
-            <!-- Card 2: Most Attacks Outgoing -->
             <div class="card">
                 <h2 class="text-sm md:text-base font-bold mb-0.5 text-white">Most Attacks Outgoing Country</h2>
                 <img 
-                    src="Images/Most_Attacks_Outgoing.png" 
+                    src="{{ url_for('static', filename='Images/Most_Attacks_Outgoing.png') }}" 
                     alt="Bar chart showing the top countries where cyberattacks originate" 
                     class="w-full h-auto rounded-xl shadow-lg border-2 border-gray-700"
                     onerror="this.onerror=null; this.src='https://placehold.co/450x338/2d3748/cbd5e0?text=Image+Not+Found'"
@@ -97,11 +90,10 @@
                 </p>
             </div>
             
-            <!-- Card 3: Distribution of Attack Types -->
             <div class="card">
                 <h2 class="text-sm md:text-base font-bold mb-0.5 text-white">Distribution of Attack Types</h2>
                 <img 
-                    src="Images/Attack_Types.png" 
+                    src="{{ url_for('static', filename='Images/Attack_Types.png') }}" 
                     alt="Pie chart showing the distribution of different types of cyberattacks" 
                     class="w-full h-auto rounded-xl shadow-lg border-2 border-gray-700"
                     onerror="this.onerror=null; this.src='https://placehold.co/450x338/2d3748/cbd5e0?text=Image+Not+Found'"
@@ -111,11 +103,10 @@
                 </p>
             </div>
 
-            <!-- Card 4: Distribution of Severities -->
             <div class="card">
                 <h2 class="text-sm md:text-base font-bold mb-0.5 text-white">Distribution of Attack Severity</h2>
                 <img 
-                    src="Images/Attack_Severity.png" 
+                    src="{{ url_for('static', filename='Images/Attack_Severity.png') }}" 
                     alt="Pie chart showing the distribution of cyberattacks by severity level" 
                     class="w-full h-auto rounded-xl shadow-lg border-2 border-gray-700"
                     onerror="this.onerror=null; this.src='https://placehold.co/450x338/2d3748/cbd5e0?text=Image+Not+Found'"

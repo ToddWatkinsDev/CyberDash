@@ -1,0 +1,363 @@
+2025-08-29 11:22:50,326 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 11:22:50,326 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 11:22:50,326 - INFO - Starting production-ready Waitress web server...
+2025-08-29 11:22:50,327 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 11:22:50,327 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 11:22:50,328 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 11:22:50,328 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 11:22:50,334 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 11:22:50,351 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 11:22:50,351 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 11:22:50,392 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 11:22:50,392 - INFO - Starting script: down_detector.py...
+2025-08-29 11:22:50,414 - INFO - Successfully started down_detector.py.
+2025-08-29 11:22:50,414 - INFO - Starting script: news.py...
+2025-08-29 11:22:50,468 - INFO - Successfully started news.py.
+2025-08-29 11:22:51,011 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 11:22:56,444 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.413 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 11:22:56,444 - INFO - --- Integrity Checks Complete ---
+
+2025-08-29 11:25:43,269 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 11:25:43,269 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 11:25:43,269 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 11:25:43,269 - INFO - Starting production-ready Waitress web server...
+2025-08-29 11:25:43,269 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 11:25:43,269 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 11:25:43,269 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 11:25:43,269 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 11:25:43,309 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 11:25:43,309 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 11:25:43,335 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 11:25:43,335 - INFO - Starting script: down_detector.py...
+2025-08-29 11:25:43,391 - INFO - Successfully started down_detector.py.
+2025-08-29 11:25:43,391 - INFO - Starting script: news.py...
+2025-08-29 11:25:43,438 - INFO - Successfully started news.py.
+2025-08-29 11:25:44,186 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 11:25:49,609 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.409 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 11:25:49,609 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 11:25:50,148 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 11:25:50,434 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 11:25:50,714 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 11:25:50,888 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 11:25:51,037 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 11:25:51,037 - INFO - --- All Checks Complete ---
+
+2025-08-29 11:43:31,047 - WARNING - Task queue depth is 1
+2025-08-29 11:43:31,047 - WARNING - Task queue depth is 1
+2025-08-29 11:43:31,048 - WARNING - Task queue depth is 1
+2025-08-29 11:44:12,022 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 11:44:12,023 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 11:44:12,023 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 11:44:12,023 - INFO - Starting production-ready Waitress web server...
+2025-08-29 11:44:12,023 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 11:44:12,024 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 11:44:12,024 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 11:44:12,029 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 11:44:12,058 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 11:44:12,059 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 11:44:12,088 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 11:44:12,088 - INFO - Starting script: down_detector.py...
+2025-08-29 11:44:12,121 - INFO - Successfully started down_detector.py.
+2025-08-29 11:44:12,121 - INFO - Starting script: news.py...
+2025-08-29 11:44:12,154 - INFO - Successfully started news.py.
+2025-08-29 11:44:12,656 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 11:44:18,082 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.411 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 11:44:18,082 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 11:44:18,929 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 11:44:19,048 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 11:44:19,155 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 11:44:19,252 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 11:44:19,334 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 11:44:19,334 - INFO - --- All Checks Complete ---
+
+2025-08-29 11:45:38,402 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 11:45:38,403 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 11:45:38,403 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 11:45:38,403 - INFO - Starting production-ready Waitress web server...
+2025-08-29 11:45:38,404 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 11:45:38,404 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 11:45:38,404 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 11:45:38,411 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 11:45:38,438 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 11:45:38,438 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 11:45:38,469 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 11:45:38,469 - INFO - Starting script: down_detector.py...
+2025-08-29 11:45:38,501 - INFO - Successfully started down_detector.py.
+2025-08-29 11:45:38,501 - INFO - Starting script: news.py...
+2025-08-29 11:45:38,541 - INFO - Successfully started news.py.
+2025-08-29 11:45:39,028 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 11:45:44,455 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.411 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 11:45:44,455 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 11:45:44,636 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 11:45:44,731 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 11:45:44,826 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 11:45:44,921 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 11:45:45,015 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 11:45:45,015 - INFO - --- All Checks Complete ---
+
+2025-08-29 12:15:17,970 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 12:15:17,970 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 12:15:17,970 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 12:15:17,970 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 12:15:17,970 - INFO - Starting production-ready Waitress web server...
+2025-08-29 12:15:17,970 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 12:15:17,970 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 12:15:17,970 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 12:15:17,999 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 12:15:17,999 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 12:15:18,031 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 12:15:18,031 - INFO - Starting script: down_detector.py...
+2025-08-29 12:15:18,067 - INFO - Successfully started down_detector.py.
+2025-08-29 12:15:18,067 - INFO - Starting script: news.py...
+2025-08-29 12:15:18,103 - INFO - Successfully started news.py.
+2025-08-29 12:15:18,598 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:15:24,013 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.401 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 12:15:24,013 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 12:15:24,194 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 12:15:24,351 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 12:15:24,475 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 12:15:24,580 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 12:15:24,672 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 12:15:24,672 - INFO - --- All Checks Complete ---
+
+2025-08-29 12:28:27,010 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 12:28:27,010 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 12:28:27,010 - INFO - Starting production-ready Waitress web server...
+2025-08-29 12:28:27,011 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 12:28:27,011 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 12:28:27,011 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 12:28:27,012 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 12:28:27,017 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 12:28:27,052 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 12:28:27,052 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 12:28:27,090 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 12:28:27,090 - INFO - Starting script: down_detector.py...
+2025-08-29 12:28:27,127 - INFO - Successfully started down_detector.py.
+2025-08-29 12:28:27,127 - INFO - Starting script: news.py...
+2025-08-29 12:28:27,175 - INFO - Successfully started news.py.
+2025-08-29 12:28:27,703 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:28:33,121 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.404 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 12:28:33,121 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 12:28:33,310 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 12:28:33,421 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 12:28:33,661 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 12:28:33,767 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 12:28:33,865 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 12:28:33,865 - INFO - --- All Checks Complete ---
+
+2025-08-29 12:32:49,512 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 12:32:49,512 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 12:32:49,512 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 12:32:49,512 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 12:32:49,512 - INFO - Starting production-ready Waitress web server...
+2025-08-29 12:32:49,512 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 12:32:49,512 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 12:32:49,525 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 12:32:49,557 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 12:32:49,557 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 12:32:49,586 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 12:32:49,586 - INFO - Starting script: down_detector.py...
+2025-08-29 12:32:49,620 - INFO - Successfully started down_detector.py.
+2025-08-29 12:32:49,620 - INFO - Starting script: news.py...
+2025-08-29 12:32:49,658 - INFO - Successfully started news.py.
+2025-08-29 12:32:50,187 - INFO - [External URL: https://cdn.tailwindcss.com] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:32:55,617 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com' via trusted DNS. Error: The resolution lifetime expired after 5.404 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.; Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+2025-08-29 12:32:55,617 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 12:32:55,758 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 12:32:55,851 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 12:32:55,950 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-08-04 14:31:05
+2025-08-29 12:32:56,046 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 12:32:56,136 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 12:32:56,136 - INFO - --- All Checks Complete ---
+
+2025-08-29 12:36:13,588 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 12:36:13,588 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 12:36:13,588 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 12:36:13,588 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 12:36:13,588 - INFO - Starting production-ready Waitress web server...
+2025-08-29 12:36:13,588 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 12:36:13,588 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 12:36:13,596 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 12:36:13,628 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 12:36:13,628 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 12:36:13,644 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 12:36:13,644 - INFO - Starting script: down_detector.py...
+2025-08-29 12:36:13,692 - INFO - Successfully started down_detector.py.
+2025-08-29 12:36:13,692 - INFO - Starting script: news.py...
+2025-08-29 12:36:13,728 - INFO - Successfully started news.py.
+2025-08-29 12:36:14,213 - INFO - [External URL: https://cdn.tailwindcss.com?version=3.4.3] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: /?version=3.4.3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:36:14,213 - INFO - Checking integrity of https://cdn.tailwindcss.com?version=3.4.3...
+2025-08-29 12:36:14,697 - ERROR - [Tailwind CSS Hash Check] FAIL - Could not download the file: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: /?version=3.4.3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:36:14,697 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com?version=3.4.3' locally. Error: [Errno 11001] getaddrinfo failed
+2025-08-29 12:36:14,697 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 12:36:14,879 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 12:36:15,021 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 12:36:15,196 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-27 10:26:17
+2025-08-29 12:36:15,310 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 12:36:15,412 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 12:36:15,412 - INFO - --- All Checks Complete ---
+
+2025-08-29 12:36:16,234 - ERROR - Exception on /static/Images/Most_Attacks_Incoming.png [GET]
+Traceback (most recent call last):
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 278, in <lambda>
+    view_func=lambda **kw: self_ref().send_static_file(**kw),  # type: ignore # noqa: B950
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 326, in send_static_file
+    return send_from_directory(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\helpers.py", line 572, in send_from_directory
+    return werkzeug.utils.send_from_directory(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 577, in send_from_directory
+    return send_file(path_str, environ, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 480, in send_file
+    file = open(path, "rb")  # type: ignore
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ToddWatkins\\Documents\\CyberDash\\CyberDash\\DashboardServer\\static/Images/Most_Attacks_Incoming.png'
+2025-08-29 12:36:16,337 - ERROR - Exception on /static/Images/Most_Attacks_Outgoing.png [GET]
+Traceback (most recent call last):
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 278, in <lambda>
+    view_func=lambda **kw: self_ref().send_static_file(**kw),  # type: ignore # noqa: B950
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 326, in send_static_file
+    return send_from_directory(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\helpers.py", line 572, in send_from_directory
+    return werkzeug.utils.send_from_directory(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 577, in send_from_directory
+    return send_file(path_str, environ, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 480, in send_file
+    file = open(path, "rb")  # type: ignore
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ToddWatkins\\Documents\\CyberDash\\CyberDash\\DashboardServer\\static/Images/Most_Attacks_Outgoing.png'
+2025-08-29 12:36:16,426 - ERROR - Exception on /static/Images/Attack_Severity.png [GET]
+Traceback (most recent call last):
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 278, in <lambda>
+    view_func=lambda **kw: self_ref().send_static_file(**kw),  # type: ignore # noqa: B950
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 326, in send_static_file
+    return send_from_directory(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\helpers.py", line 572, in send_from_directory
+    return werkzeug.utils.send_from_directory(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 577, in send_from_directory
+    return send_file(path_str, environ, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 480, in send_file
+    file = open(path, "rb")  # type: ignore
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ToddWatkins\\Documents\\CyberDash\\CyberDash\\DashboardServer\\static/Images/Attack_Severity.png'
+2025-08-29 12:36:16,533 - ERROR - Exception on /static/Images/Attack_Types.png [GET]
+Traceback (most recent call last):
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 278, in <lambda>
+    view_func=lambda **kw: self_ref().send_static_file(**kw),  # type: ignore # noqa: B950
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\app.py", line 326, in send_static_file
+    return send_from_directory(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\flask\helpers.py", line 572, in send_from_directory
+    return werkzeug.utils.send_from_directory(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 577, in send_from_directory
+    return send_file(path_str, environ, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ToddWatkins\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\werkzeug\utils.py", line 480, in send_file
+    file = open(path, "rb")  # type: ignore
+           ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\ToddWatkins\\Documents\\CyberDash\\CyberDash\\DashboardServer\\static/Images/Attack_Types.png'
+2025-08-29 12:43:52,466 - INFO - 
+--- Running Integrity Checks ---
+2025-08-29 12:43:52,466 - WARNING - [Fortinet Attack History] FAIL - File not found.
+2025-08-29 12:43:52,466 - INFO - Starting script: Fortinet_Attack_History.py...
+2025-08-29 12:43:52,467 - INFO - Starting production-ready Waitress web server...
+2025-08-29 12:43:52,467 - WARNING - [FortiScraper Data] FAIL - File not found.
+2025-08-29 12:43:52,467 - WARNING - [Down Detector Data] FAIL - File not found.
+2025-08-29 12:43:52,468 - WARNING - [News Feed Data] FAIL - File not found.
+2025-08-29 12:43:52,472 - INFO - Serving on http://0.0.0.0:8000
+2025-08-29 12:43:52,504 - INFO - Successfully started Fortinet_Attack_History.py.
+2025-08-29 12:43:52,504 - INFO - Starting script: Fortiscraper3.py...
+2025-08-29 12:43:52,530 - INFO - Successfully started Fortiscraper3.py.
+2025-08-29 12:43:52,530 - INFO - Starting script: down_detector.py...
+2025-08-29 12:43:52,565 - INFO - Successfully started down_detector.py.
+2025-08-29 12:43:52,565 - INFO - Starting script: news.py...
+2025-08-29 12:43:52,606 - INFO - Successfully started news.py.
+2025-08-29 12:43:53,119 - INFO - [External URL: https://cdn.tailwindcss.com?version=3.4.3] FAIL - Request failed: HTTPSConnectionPool(host='cdn.tailwindcss.com', port=443): Max retries exceeded with url: /?version=3.4.3 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)')))
+2025-08-29 12:43:53,119 - INFO - Checking integrity of https://cdn.tailwindcss.com?version=3.4.3...
+2025-08-29 12:43:53,119 - ERROR - [Tailwind CSS Hash Check] FAIL - Hash file not found: c:\Users\ToddWatkins\Documents\CyberDash\CyberDash\DashboardServer\tailwind_hash.txt
+2025-08-29 12:43:53,120 - INFO - [DNS Consistency Check] FAIL - Could not resolve 'cdn.tailwindcss.com?version=3.4.3' locally. Error: [Errno 11001] getaddrinfo failed
+2025-08-29 12:43:53,120 - INFO - 
+--- SSL Certificate Checks ---
+2025-08-29 12:43:53,307 - INFO - [www.fortinet.com] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-21 23:59:59
+2025-08-29 12:43:53,434 - INFO - [www.downdetector.com] SSL Check OK - Subject: downdetector.com, Issuer: N/A, Valid until: 2025-10-15 05:34:24
+2025-08-29 12:43:53,627 - INFO - [www.bbc.co.uk] SSL Check OK - Subject: N/A, Issuer: N/A, Valid until: 2026-07-27 10:26:17
+2025-08-29 12:43:53,747 - INFO - [www.bleepingcomputer.com] SSL Check OK - Subject: bleepingcomputer.com, Issuer: N/A, Valid until: 2026-05-03 23:59:59
+2025-08-29 12:43:53,892 - INFO - [www.wired.com] SSL Check OK - Subject: wired.com, Issuer: N/A, Valid until: 2026-06-18 23:59:59
+2025-08-29 12:43:53,892 - INFO - --- All Checks Complete ---
+
